@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+        
+
+}
+
+body{
+    background-image: url('https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX32209597.jpg');
+    /* background-image: url('https://image.shutterstock.com/image-vector/cute-cartoon-kid-umbrella-standing-260nw-322793567.jpg'); */
+    /* background-size: 100% 100vh; */
+    height: 100%;
+    overflow: hidden;
+    background-position:top;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    /* position: absolute; */
+  
+
+}
+/* .firstdiv{
+    position: absolute;
+    border: 3px solid ;
+    margin-left: 35%;
+    margin-top: 10% ;
+} */
+.h1{
+    font-weight:bold;
+    font-size: 50px;
+}
+/* .h1{
+    font-size:320px;
+    font-weight: bold;
+} */
+
+.main{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    margin-top:107px;
+    /* background-color:red; */
+    /* padding: 5px; */
+
+}
+.main > *{
+ margin-bottom:20px;
+}
+.input-box{
+    
+    width:100%;
+    background-color:rgb(216, 199, 199);
+    border:none;
+    outline: none;
+    height: 50px;
+    border-radius: 50px;
+    padding: 12px;
+    /* margin-left: 27%; */
+    margin-top: 0px;
+    color:black;
+    text:5px;
+
+
+
+
+}
+.input-box:focus{
+    background-color: rgb(233, 227, 227);
+    
+    
+}
+.searchinput{
+    background-color:rgb(216, 199, 199);
+    /* border: 2px solid red; */
+    width: 45%;
+    height: 50px;
+    margin-left: 27%;
+
+    border-radius: 50px;
+    position: absolute;
+
+    
+}
+
+/* icon search */
+#searchicon{
+    
+    float: right;
+    transform: translate(-3vw,-6vh);
+    
+    
+    cursor: pointer;
+    
+}
+
+.weather-app{
+    color: rgb(0, 0, 0);
+    border:2px solid rgb(71, 70, 69);
+    height: 55vh;
+    padding: 20px;
+    background: linear-gradient(rgb(71, 70, 69),rgba(14, 6, 1, 0.3));
+    border-radius: 20px;
+    line-height: 31px;
+    background-size: 100% 70vh;
+}
+.location-details{
+    /* border: 2px solid black; */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.weather-status{
+   /* border: 2px solid black; */
+   padding: 20px;
+}
+.temp{
+    font-size: 55px;
+    font-weight: bold;
+    /* border: 2px dotted ; */
+    margin: 20px 0px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.7);
+}
+.min-max{
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+    /* text-align: center; */
+}
+
+ .weather{
+     font-size: 38px;
+     font-weight: bold;
+ }
+ /* .container{
+     border: 2px solid black;
+     padding: 12px;
+     margin-top: -150px;
+     /* margin-left: 500px; */
+
+     
+ /* } */ 
+
+ @media screen and (max-width:560px){
+     .weather-app{
+         line-height: 29px;
+         height: 60vh;
+         border:1px solid black;
+     }
+     .temp{
+         font-size: 45px;
+     }
+     .weather{
+         font-size: 25px ;
+     }
+     
+ }
+
+ /* @media screen and (min-width:562){
+    .img{
+        /* margin-left: 50%; */
+        /* top:2px;
+        border: 2px solid black;
+        background-image: url(img/rain.png);
+    }
+ } */ 
